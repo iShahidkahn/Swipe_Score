@@ -10,8 +10,8 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-5">
                 <div className='mb-4 d-flex justify-content-start align-items-center'>
-                  <img src={logo}  alt="Company Logo" style={{width:"40px"}} className="logo" />
-                  <h2  style={{fontSize:"45px", margin:"0 0 0 10px"}}>swipescore</h2>
+                  <img src={logo}  alt="Company Logo" style={{width:"30px"}} className="logo" />
+                  <h2  style={{fontSize:"30px", margin:"0 0 0 10px"}}>swipescore</h2>
                 </div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
