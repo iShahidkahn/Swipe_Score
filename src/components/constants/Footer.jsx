@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../logo_full.svg";
+import logo from "../../favicon.svg";
 
 const Footer = () => {
   return (
@@ -9,8 +9,9 @@ const Footer = () => {
           <div className="col-md-9">
             <div className="row">
               <div className="col-md-5">
-                <div className='mb-4'>
-                  <img src={logo} alt="Company Logo" className="logo" />
+                <div className='mb-4 d-flex justify-content-start align-items-center'>
+                  <img src={logo}  alt="Company Logo" style={{width:"40px"}} className="logo" />
+                  <h2  style={{fontSize:"45px", margin:"0 0 0 10px"}}>swipescore</h2>
                 </div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
